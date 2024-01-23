@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+
+}
+.container{
+  background-color: #1450A3;
+}
+nav{
+  display: flex;
+ font-family: sans-serif;
+}
+.nav-items{
+  display: flex;
+  width: 80%;
+
+  justify-content: flex-end;
+
+}
+ .nav-items a{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin: .5em;
+  text-decoration: none;
+}
+.logo {
+  width: 20%;
+  margin: .5em;
+  font-size: 1em;
+
+}
+.logo a{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  margin: auto;
+}
+.intro p{
+  width: 400px;
+  margin: auto;
+  color: white;
+}
+.intro{
+  width: 60%;
+  text-align: center;
+/* margin-top: 81px; */
+margin: auto;
+}
+
+.profile {
+  width: 40%;
+  justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.profile img{
+  width: 176px;
+  height: 176px;
+  border-radius: 89px;
+}

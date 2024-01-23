@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+.navbar{
+  background-color: gray;
+  display: flex;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left-nav{
+  width: 10%;
+  display: flex;
+}
+.left-nav img{
+  width: 100%;
+  height: auto;
+
+}
+.mid-nav{
+  width: 70%;
+  display: flex;
+  /* overflow: hidden; */
+}
+.mid-nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding:12px 12px;
+  align-items: center;
+}
+.right-nav{
+  width: 20%;
+  display: flex;
+  margin: 8px;
+  justify-content: flex-end;
+}
+.right-nav button{
+  margin: 0 5px;
+  padding: 0 15px;
+}

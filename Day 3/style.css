@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  /* background-color: hotpink; */
+  background-color: bisque;
+}
+.container{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 190px 0;
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1{
+      font-size: 25vw;
+      filter: opacity(0.5);
+    }
+
+}
+
+
+.info{
+  background-color: aquamarine;
+ display: flex;
+ flex-direction: column;
+  width: 400px; 
+  height:300px;
+   position:absolute;
+    z-index:999;
+     top: 50%;
+      left:50%;
+       margin-top: -150px;
+        margin-left: -200px;
+         overflow: auto;
+}
+.info button{
+  margin:.5rem;
+}

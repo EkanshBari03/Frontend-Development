@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+
+}
+.gird{
+  /* background-color: red; */
+}
+.row {
+  display: flex;
+}
+
+.big-data-grid{
+   background-color: grey;
+  width: 440px;
+  height: 250px;
+  margin : 0 5px;
+}
+
+.small-data-grid{
+  background-color: bisque;
+  margin: 0 5px;
+}
