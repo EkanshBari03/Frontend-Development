@@ -1,0 +1,26 @@
+ /* color  */
+h1{
+    color: rgb(199, 28, 28); /* change text color */
+    background-color: #000; /* change background color */
+}
+
+/* css selectors */
+
+/* select all the element  */
+h1 {
+    font-family: sans-serif;
+}
+
+/* select element using class (class can be used multiple times in a page) */
+
+.heading2 {
+    color: wheat;
+    background-color: black;
+}
+
+/* select element using id (ids can be used once in a page) */
+
+#heading3 {
+    color: black;
+    background-color: wheat;
+}
